@@ -29,5 +29,15 @@ public class Endereco {
     public String getCidade() {
         return Cidade;
     }
+    @Override
+    public String toString() {
+        return "Endereco" +
+        "\n rua=" + rua + 
+        "\n numero=" + numero + 
+        "\n cep=" + cep + 
+        "\n estado=" + estado + 
+        "\n Cidade=" + Cidade + 
+           "";
+    }
 
 }
