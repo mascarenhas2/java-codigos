@@ -15,7 +15,7 @@ public class App
              System.out.println("Irei ficar em paz hoje!");
        }
         else{
-            System.out.println("Não irei me drogar!")
+            System.out.println("Não irei me matar!")
         }
     }
 }
