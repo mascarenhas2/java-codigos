@@ -9,9 +9,12 @@ public class Main {
         System.out.println("ID: "+ funcionarios.getId());
         System.out.println("Nome: "+ funcionarios.getNome());
         System.out.println("Salário"+ funcionarios.getSalario());
-        System.out.println("Setor: " + funcionarios.getSetor());
-        System.out.println("Sexo: " + funcionarios.getSexo());
+        System.out.println("Setor: " + funcionarios.getSetor().getSetores());
+        System.out.println("Sexo: " + funcionarios.getSexo().getTexto());
         System.out.println("Idade:" + funcionarios.getIdade());
+       
+        
+    
 
 
 
