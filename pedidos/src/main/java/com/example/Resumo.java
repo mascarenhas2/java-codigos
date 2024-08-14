@@ -60,6 +60,17 @@ public class Resumo {
     public void setBebida(Bebidas bebida) {
         this.bebida = bebida;
     }
+    @Override
+    public String toString() {
+        return "Resumo rua=" + rua + 
+        "\n numero=" + numero + 
+        "\n complemento=" + complemento + 
+        "\n cep=" + cep + 
+        "\n uf=" + uf + 
+        "\n prato=" + prato + 
+        "\n bebida=" + bebida + 
+        "]";
+    }
 
 
     
