@@ -6,7 +6,11 @@ package com.example;
     private String rg;
     private String dataNascimento;
     
-    public Fisica(String cpf, String rg, String dataNascimento) {
+ 
+    
+
+    public Fisica(String nome, String telefone, String cpf, String rg, String dataNascimento) {
+        super(nome, telefone);
         this.cpf = cpf;
         this.rg = rg;
         this.dataNascimento = dataNascimento;
@@ -26,9 +30,12 @@ package com.example;
 
     @Override
     public String toString() {
-        return "Fisica \n cpf=" + cpf + 
-         "\n rg=" + rg + 
-          "\n dataNascimento=" + dataNascimento + "";
+        return "\n Dados da PessoaFisica " +
+        "\n Nome: " + super.nome +
+        "\n Telefone " + super.telefone +
+        "\n cpf= " + cpf + 
+         "\n rg= " + rg + 
+        "\n dataNascimento= " + dataNascimento + "";
     }
     
 
