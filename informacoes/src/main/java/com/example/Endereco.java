@@ -1,6 +1,6 @@
 package com.example;
 
-class Endereco extends Pessoa {
+ public class Endereco {
 
       String logradouro;
       String numero;
@@ -8,9 +8,8 @@ class Endereco extends Pessoa {
       String cep;
       String cidade;
       UnidadeFederativa uf;
-    public Endereco(int id, String nome, String telefone, Endereco endereco, String logradouro, String numero,
-            String complemento, String cep, String cidade, UnidadeFederativa uf) {
-        super(id, nome, telefone, endereco);
+    public Endereco(String logradouro, String numero, String complemento, String cep, String cidade,
+            UnidadeFederativa uf) {
         this.logradouro = logradouro;
         this.numero = numero;
         this.complemento = complemento;
@@ -54,7 +53,6 @@ class Endereco extends Pessoa {
     public void setUf(UnidadeFederativa uf) {
         this.uf = uf;
     }
-    @Override
     public String toString() {
         return " Endereco: " +
         super.toString() +
@@ -64,7 +62,6 @@ class Endereco extends Pessoa {
         "\n cep=" + cep + 
         "\n cidade=" + cidade + 
         "\n uf=" + uf.getTexto() + uf.getSigla() + "";
-
     }
 
       
