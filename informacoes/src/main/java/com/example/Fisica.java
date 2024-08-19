@@ -48,13 +48,13 @@ class Fisica extends Pessoa {
     }
     @Override
     public String toString() {
-        return "Pessoa Fisica: " +
+        return "Dados da Pessoa Fisica: " +
          super.toString() +
-        "\n sexo=" + sexo + 
-        "\n cpf=" + cpf + 
-        "\n rg=" + rg + 
-        "\n dataNascimento=" + dataNascimento + 
-        "\n salario=" + salario + "";
+        "\n sexo = " + sexo + 
+        "\n cpf = " + cpf + 
+        "\n rg = " + rg + 
+        "\n dataNascimento = " + dataNascimento + 
+        "\n salario = " + salario + "";
     }
     
      

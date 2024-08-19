@@ -47,13 +47,13 @@ package com.example;
     }
     @Override
     public String toString() {
-        return "\n Pessoa juridica " + 
-        super.toString() +
-        "\n cnpj=" + cnpj + 
-        "\n inscricaoEstadual=" + inscricaoEstadual + 
-        "\n DataInicio=" + dataInicio + 
-        "\n DataTermino=" + dataTermino + 
-        "\n valorContrato=" + valorContrato + "";
+        return "\n Dados da Pessoa juridica =  " + 
+        "\n cnpj= " + cnpj + 
+        "\n inscricaoEstadual= " + inscricaoEstadual + 
+        "\n DataInicio= " + dataInicio + 
+        "\n DataTermino= " + dataTermino + 
+        "\n valorContrato= " + valorContrato + "";
+    
     }
      
 

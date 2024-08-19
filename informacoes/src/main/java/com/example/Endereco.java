@@ -1,6 +1,6 @@
 package com.example;
 
- public class Endereco {
+ public abstract class Endereco {
 
       String logradouro;
       String numero;
@@ -56,12 +56,12 @@ package com.example;
     public String toString() {
         return " Endereco: " +
         super.toString() +
-        "\nlogradouro=" + logradouro + 
-        "\n numero=" + numero + 
-        "\n complemento=" + complemento + 
-        "\n cep=" + cep + 
-        "\n cidade=" + cidade + 
-        "\n uf=" + uf.getTexto() + uf.getSigla() + "";
+        "\nlogradouro = " + logradouro + 
+        "\n numero = " + numero + 
+        "\n complemento = " + complemento + 
+        "\n cep = " + cep + 
+        "\n cidade = " + cidade + 
+        "\n uf = " + uf.getTexto() + uf.getSigla() + "";
     }
 
       
