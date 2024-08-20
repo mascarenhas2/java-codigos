@@ -39,7 +39,7 @@ public abstract class Pessoa {
     }
     @Override
     public String toString() {
-        return "Dados da Pessoa: " +
+        return 
         "\n id = " + id + 
         "\n nome = " + nome + 
         "\n telefone = " + telefone + 

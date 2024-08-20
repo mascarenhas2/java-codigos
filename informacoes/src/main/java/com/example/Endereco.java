@@ -54,8 +54,7 @@ package com.example;
         this.uf = uf;
     }
     public String toString() {
-        return " Endereco: " +
-        super.toString() +
+        return 
         "\nlogradouro = " + logradouro + 
         "\n numero = " + numero + 
         "\n complemento = " + complemento + 
