@@ -1,6 +1,6 @@
 package com.example;
 
- public abstract class Endereco {
+ public class Endereco {
 
       String logradouro;
       String numero;

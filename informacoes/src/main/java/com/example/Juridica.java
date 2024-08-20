@@ -48,6 +48,7 @@ package com.example;
     @Override
     public String toString() {
         return "\n Dados da Pessoa juridica =  " + 
+        super.toString() +
         "\n cnpj= " + cnpj + 
         "\n inscricaoEstadual= " + inscricaoEstadual + 
         "\n DataInicio= " + dataInicio + 

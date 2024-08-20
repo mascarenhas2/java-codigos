@@ -43,7 +43,7 @@ public abstract class Pessoa {
         "\n id = " + id + 
         "\n nome = " + nome + 
         "\n telefone = " + telefone + 
-        "\n endereco = " + endereco.toString() + "";
+        "\n endereco = " + endereco + "";
     }
 
     
